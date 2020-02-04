@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "components_buttons_standard_buttons",
+  "info": {
+    "name": "Standard button",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "green"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "startpages",
+  "info": {
+    "name": "Startpage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Preamble": {
+      "type": "text"
+    },
+    "Herolink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.standard-button"
+    }
+  }
+}
